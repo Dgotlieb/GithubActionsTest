@@ -19,4 +19,4 @@ jobs:
           pip install selenium
       - name: Test
         run: |
-          python3 cloud_test.py
+          python3 -m unittest cloud_test.py
